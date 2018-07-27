@@ -11,23 +11,5 @@ public class RestController {
     }
 
 
-    @RequestMapping("/register")
-    public String register(){
-        return "Registration Successful";
-    }
-
-
-    @RequestMapping("/login")
-    public String login(){
-        return "Login Successful";
-    }
-
-
-
-
-    @RequestMapping("/api/insert/patient/new")
-    public String addNewPatient(){
-        return "new patient added";
-    }
 
 }
