@@ -60,7 +60,7 @@ public class User {
         id=0;
     }
 
-    public User(long id, String first_name, String last_name, String email, String mobile, String password) {
+    public User(String first_name, String last_name, String email, String mobile, String password) {
         this.id = id;
 
         this.first_name = first_name;
