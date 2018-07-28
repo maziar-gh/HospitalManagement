@@ -2,35 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2b5051-4e10-4362-8e4b-b633df5050f2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/RoleName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/config/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/AppException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/BadRequestException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/ResourceNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/ApiResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/JwtAuthenticationResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/LoginRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignUpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/RoleRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/UserRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CurrentUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CustomUserDetailsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationEntryPoint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtTokenProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/UserPrincipal.java" />
       <change beforePath="$PROJECT_DIR$/../resfulproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../resfulproject/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../resfulproject/pom.xml" afterPath="$PROJECT_DIR$/../resfulproject/pom.xml" />
       <change beforePath="$PROJECT_DIR$/../resfulproject/resfulproject.iml" afterPath="$PROJECT_DIR$/../resfulproject/resfulproject.iml" />
-      <change beforePath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/controller/RestController.java" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/controller/RestController.java" />
+      <change beforePath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties" afterPath="$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,35 +39,146 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/pom.xml">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springRestfulApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/springRestfulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="515">
+              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+                <element signature="e#1882#1883#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CurrentUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/LoginRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignUpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtAuthenticationResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/JwtAuthenticationResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/AppException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BadRequestException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/BadRequestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceNotFoundException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/ResourceNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +187,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            <state relative-caret-position="2210">
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1147#1148#0" expanded="true" />
@@ -119,46 +226,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/Role.java">
+      <file leaf-file-name="ApiResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/ApiResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/RoleName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/controller/RestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,8 +250,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,12 +273,29 @@
         <option value="$PROJECT_DIR$/src/main/java/springRestfulApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/restfulproject/dhrubo/springRestfulApplication.java" />
         <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/controller/RestController.java" />
-        <option value="$PROJECT_DIR$/../resfulproject/pom.xml" />
-        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties" />
         <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/user.java" />
         <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/Role.java" />
         <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/RoleName.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/config/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/pom.xml" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationEntryPoint.java" />
         <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtTokenProvider.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/UserPrincipal.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CurrentUser.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/LoginRequest.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignupRequest.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/JwtAuthenticationResponse.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/ApiResponse.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/AppException.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/BadRequestException.java" />
+        <option value="$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/ResourceNotFoundException.java" />
       </list>
     </option>
   </component>
@@ -286,6 +385,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +403,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
+              <item name="payload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhrubo" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resfulproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resfulproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,6 +474,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.restfulproject.dhrubo.security" />
+      <recent name="com.restfulproject.dhrubo.config" />
       <recent name="com.restfulproject.dhrubo.model" />
     </key>
   </component>
@@ -450,7 +604,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532452374655</updated>
       <workItem from="1532452379029" duration="5542000" />
-      <workItem from="1532718346071" duration="3594000" />
+      <workItem from="1532718346071" duration="10160000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1532452924502</created>
@@ -466,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532719323235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="User and Role class created">
+      <created>1532721961214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532721961214</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9136000" />
+    <option name="totallyTimeSpent" value="15702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -496,7 +657,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49591836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35510203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -518,7 +679,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="controller file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller file added" />
+    <MESSAGE value="User and Role class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="User and Role class created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,25 +712,9 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../resfulproject/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,10 +758,292 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="88" lean-forward="false" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/UserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2264#2265#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2412#2413#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#2524#2525#0" expanded="true" />
+            <element signature="e#2572#2573#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2698#2699#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2886#2887#0" expanded="true" />
+            <element signature="e#2913#2914#0" expanded="true" />
+            <element signature="e#2975#2976#0" expanded="true" />
+            <element signature="e#3002#3003#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtTokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/security/CurrentUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignUpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/payload/JwtAuthenticationResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/AppException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/BadRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/exceptions/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../resfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="2210">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1147#1148#0" expanded="true" />
