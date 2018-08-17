@@ -8,4 +8,5 @@ import javax.annotation.Resource;
 @Resource
 public interface DoctorRepository extends JpaRepository<Doctor, String> {
 
+    Doctor findById(Long id);
 }
