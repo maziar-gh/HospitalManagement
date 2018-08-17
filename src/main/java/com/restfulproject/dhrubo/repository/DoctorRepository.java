@@ -9,4 +9,5 @@ import javax.annotation.Resource;
 public interface DoctorRepository extends JpaRepository<Doctor, String> {
 
     Doctor findById(Long id);
+    void removeById(Long id);
 }
