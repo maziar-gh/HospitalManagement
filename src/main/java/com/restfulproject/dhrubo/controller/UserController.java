@@ -25,10 +25,10 @@ public class UserController {
     @Autowired
     private UserRepository repository;
 
-    @GetMapping
-    public Iterable<User> findAll() {
-        return repository.findAll();
-    }
+//    @GetMapping
+//    public Iterable<User> findAll() {
+//        return repository.findAll();
+//    }
 
     @GetMapping(path = "/{username}")
     public User find(@PathVariable("username") String username) {
