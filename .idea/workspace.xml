@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16a08b14-ac6b-4a71-be5b-3c685d26a74e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../restfulproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../restfulproject/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="16a08b14-ac6b-4a71-be5b-3c685d26a74e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,6 +174,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../restfulproject" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../restfulproject" value="master" />
+      </map>
+    </option>
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GradleLocalSettings">
@@ -535,7 +538,7 @@
       <workItem from="1533909135695" duration="1931000" />
       <workItem from="1534258471876" duration="134000" />
       <workItem from="1534490155641" duration="16332000" />
-      <workItem from="1534692204041" duration="17757000" />
+      <workItem from="1534692204041" duration="17808000" />
     </task>
     <task id="LOCAL-00001" summary="init commit. project setup complete">
       <created>1532838414008</created>
@@ -579,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534781104445</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="security working Jwt tokens needs testing and bug fixing">
+      <created>1534782138435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534782138435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82999000" />
+    <option name="totallyTimeSpent" value="83050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
