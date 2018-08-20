@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 
         @UniqueConstraint(columnNames = {
 
-                "email"
+                "username"
 
         })
 
@@ -46,15 +46,15 @@ public class User {
 
 
 
-    @NaturalId
-
     @NotBlank
 
     @Size(max = 40)
 
     @Email
 
-    private String email;
+    @NaturalId
+    private String username;
+
 
 
     @NotBlank
@@ -82,13 +82,13 @@ public class User {
 
 
 
-    public User(String first_name, String last_name, String email, String mobile,String password) {
+    public User(String first_name, String last_name, String username, String mobile,String password) {
 
         this.first_name = first_name;
 
         this.last_name = last_name;
 
-        this.email = email;
+        this.username = username;
 
         this.mobile = mobile;
 
@@ -147,18 +147,13 @@ public class User {
 
 
 
-    public String getEmail() {
 
-        return email;
-
+    public String getUsername(){
+        return username;
     }
 
-
-
-    public void setEmail(String email) {
-
-        this.email = email;
-
+    public void setUsername(String username){
+        this.username = username;
     }
 
     public String getMobile() {

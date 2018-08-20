@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 @Resource
 public interface UserRepository extends JpaRepository<User, String> {
 
-    User findByEmail(String email);
+    User findByUsername(String username);
+    User findById(Long id);
 
 }
