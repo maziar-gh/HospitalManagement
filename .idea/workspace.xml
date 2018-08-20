@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a08b14-ac6b-4a71-be5b-3c685d26a74e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/config/SecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/payload/JwtAuthenticationResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/CurrentUser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/CustomUserDetailsService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/JWTAuthenticationFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtAuthenticationEntryPoint.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/JwtTokenProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/security/UserPrincipal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/service/UserDetailsServiceImplementation.java" />
       <change beforePath="$PROJECT_DIR$/../restfulproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../restfulproject/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/pom.xml" afterPath="$PROJECT_DIR$/../restfulproject/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/restfulproject.iml" afterPath="$PROJECT_DIR$/../restfulproject/restfulproject.iml" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/RestfulApiApplication.java" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/RestfulApiApplication.java" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/controller/UserController.java" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignupRequest.java" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/payload/SignupRequest.java" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/repository/UserRepository.java" afterPath="$PROJECT_DIR$/../restfulproject/src/main/java/com/restfulproject/dhrubo/repository/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/../restfulproject/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../restfulproject/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -556,7 +535,7 @@
       <workItem from="1533909135695" duration="1931000" />
       <workItem from="1534258471876" duration="134000" />
       <workItem from="1534490155641" duration="16332000" />
-      <workItem from="1534692204041" duration="16695000" />
+      <workItem from="1534692204041" duration="17757000" />
     </task>
     <task id="LOCAL-00001" summary="init commit. project setup complete">
       <created>1532838414008</created>
@@ -593,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534538032183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="security working Jwt tokens needs testing and bug fixing">
+      <created>1534781104445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534781104445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81937000" />
+    <option name="totallyTimeSpent" value="82999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +596,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -618,10 +603,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30228758" sideWeight="0.5040816" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.50612247" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21836735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30228758" sideWeight="0.49591836" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49387756" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30228758" sideWeight="0.49591836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -657,7 +642,8 @@
     <MESSAGE value="api insert endpoints for doctor and patient working." />
     <MESSAGE value="api update endpoints working" />
     <MESSAGE value="api delete endpoints working" />
-    <option name="LAST_COMMIT_MESSAGE" value="api delete endpoints working" />
+    <MESSAGE value="security working Jwt tokens needs testing and bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="security working Jwt tokens needs testing and bug fixing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
